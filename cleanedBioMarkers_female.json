@@ -1,0 +1,701 @@
+[
+  {
+    "name": "cholesterol",
+    "title": "Cholesterol total",
+    "normal_range": [[0.0, 5.2]],
+    "abnormal_range": [[5.2, 99]],
+    "optimal_range": [[0.0, 5.2]],
+    "unit": "mmol/L"
+  },
+  {
+    "name": "ldlCholesterol",
+    "title": "LDL Cholesterol",
+    "normal_range": [[0.0, 3.5]],
+    "abnormal_range": [[3.5, 99]],
+    "optimal_range": [[0.0, 3.5]],
+    "unit": "mmol/L"
+  },
+  {
+    "name": "hdlCholesterol",
+    "title": "HDL Cholesterol",
+    "normal_range": [[1.3, 2.0]],
+    "abnormal_range": [[0.0, 1.3]],
+    "optimal_range": [[2.0, 99]],
+    "unit": "mmol/L"
+  },
+  {
+    "name": "nonHdlCholesterol",
+    "title": "Non HDL Cholesterol",
+    "normal_range": [[3.5, 4.2]],
+    "abnormal_range": [[4.2, 99]],
+    "optimal_range": [[0.0, 3.5]],
+    "unit": "mmol/L"
+  },
+  {
+    "name": "triglyceride",
+    "title": "Triglycerides",
+    "normal_range": [[1.0, 1.7]],
+    "abnormal_range": [[1.7, 99]],
+    "optimal_range": [[0.0, 1.0]],
+    "unit": "mmol/L"
+  },
+  {
+    "name": "cholesterolToHdlRatio",
+    "title": "Cholesterol / HDL Ratio",
+    "normal_range": [[3.0, 6.0]],
+    "abnormal_range": [[6.0, 99]],
+    "optimal_range": [[0.0, 3.0]],
+    "unit": "ratio"
+  },
+  {
+    "name": "glucose",
+    "title": "Glucose",
+    "normal_range": [[5.0, 6.0]],
+    "abnormal_range": [
+      [0.0, 3.6],
+      [6.0, 20.0]
+    ],
+    "optimal_range": [[3.6, 5.0]],
+    "unit": "mmol/L"
+  },
+  {
+    "name": "hbA1c",
+    "title": "HbA1C",
+    "normal_range": [
+      [0.0, 4.6],
+      [5.3, 6.0]
+    ],
+    "abnormal_range": [[6.0, 99]],
+    "optimal_range": [[4.6, 5.3]],
+    "unit": "%"
+  },
+  {
+    "name": "insulin",
+    "title": "Insulin",
+    "normal_range": [[60.0, 180.0]],
+    "abnormal_range": [
+      [0.0, 15.0],
+      [180.0, 999]
+    ],
+    "optimal_range": [[15.0, 60.0]],
+    "unit": "pmol/L"
+  },
+  {
+    "name": "creatinine",
+    "title": "Creatinine",
+    "normal_range": [[50.0, 110.0]],
+    "abnormal_range": [
+      [0.0, 50.0],
+      [110.0, 999]
+    ],
+    "optimal_range": [[50.0, 110.0]],
+    "unit": "umol/L"
+  },
+  {
+    "name": "eGFR",
+    "title": "eGFR",
+    "normal_range": [[60.0, 99.0]],
+    "abnormal_range": [[0.0, 60.0]],
+    "optimal_range": [[99.0, 999]],
+    "unit": "mL/min/1.73 m²"
+  },
+  {
+    "name": "calcium",
+    "title": "Calcium",
+    "normal_range": [
+      [2.15, 2.22],
+      [2.45, 2.6]
+    ],
+    "abnormal_range": [
+      [0.0, 2.15],
+      [2.6, 99]
+    ],
+    "optimal_range": [[2.22, 2.45]],
+    "unit": "mmol/L"
+  },
+  {
+    "name": "magnesium",
+    "title": "Magnesium",
+    "normal_range": [[0.65, 0.9]],
+    "abnormal_range": [
+      [0.0, 0.65],
+      [1.1, 99]
+    ],
+    "optimal_range": [[0.9, 1.1]],
+    "unit": "mmol/L"
+  },
+  {
+    "name": "magnesiumRbc",
+    "title": "Magnesium RBC",
+    "normal_range": [[4.0, 5.5]],
+    "abnormal_range": [
+      [0.0, 4.0],
+      [6.4, 99]
+    ],
+    "optimal_range": [[5.5, 6.4]],
+    "unit": "mg/dL"
+  },
+  {
+    "name": "zinc",
+    "title": "Zinc",
+    "normal_range": [[7.8, 12.0]],
+    "abnormal_range": [
+      [0.0, 7.8],
+      [16.8, 99]
+    ],
+    "optimal_range": [[12.0, 16.8]],
+    "unit": "umol/L"
+  },
+  {
+    "name": "ferritin",
+    "title": "Ferritin",
+    "normal_range": [
+      [12.0, 90.0],
+      [200.0, 272.0]
+    ],
+    "abnormal_range": [
+      [0.0, 12.0],
+      [272.0, 999]
+    ],
+    "optimal_range": [[90.0, 200.0]],
+    "unit": "ug/L"
+  },
+  {
+    "name": "seleniumPlasma",
+    "title": "Selenium Plasma",
+    "normal_range": [[105.3, 120.0]],
+    "abnormal_range": [
+      [0.0, 105.3],
+      [160.4, 999]
+    ],
+    "optimal_range": [[120.0, 160.4]],
+    "unit": "ug/L"
+  },
+  {
+    "name": "sedimentationRate",
+    "title": "ESR",
+    "normal_range": [[10.0, 30.0]],
+    "abnormal_range": [
+      [0.0, 2.0],
+      [30.0, 99]
+    ],
+    "optimal_range": [[2.0, 10.0]],
+    "unit": "mm/hr"
+  },
+  {
+    "name": "cReactiveProtein",
+    "title": "hs CRP",
+    "normal_range": [[1.0, 4.0]],
+    "abnormal_range": [[4.0, 99]],
+    "optimal_range": [[0.0, 1.0]],
+    "unit": "mg/L"
+  },
+  {
+    "name": "fibrinogen",
+    "title": "Fibrinogen Q",
+    "normal_range": [[3.0, 3.9]],
+    "abnormal_range": [
+      [0.0, 2.0],
+      [3.9, 99]
+    ],
+    "optimal_range": [[2.0, 3.0]],
+    "unit": "g/L"
+  },
+  {
+    "name": "creatineKinase",
+    "title": "Creatine Kinase",
+    "normal_range": [
+      [33.0, 65.0],
+      [135.0, 165.0]
+    ],
+    "abnormal_range": [
+      [0.0, 33.0],
+      [165.0, 999]
+    ],
+    "optimal_range": [[65.0, 135.0]],
+    "unit": "U/L"
+  },
+  {
+    "name": "uricAcid",
+    "title": "Uric Acid",
+    "normal_range": [
+      [150.0, 178.0],
+      [280.0, 450.0]
+    ],
+    "abnormal_range": [
+      [0.0, 150.0],
+      [450.0, 999]
+    ],
+    "optimal_range": [[178.0, 280.0]],
+    "unit": "umol/L"
+  },
+  {
+    "name": "vitaminB12",
+    "title": "Vitamin B12",
+    "normal_range": [[138.0, 652.0]],
+    "abnormal_range": [
+      [0.0, 138.0],
+      [652.0, 800.0]
+    ],
+    "optimal_range": [[800.0, 9999]],
+    "unit": "pmol/L"
+  },
+  {
+    "name": "vitaminD",
+    "title": "Vitamin D (25-hydroxy)",
+    "normal_range": [[76.0, 200.0]],
+    "abnormal_range": [
+      [0.0, 76.0],
+      [250.0, 999]
+    ],
+    "optimal_range": [[200.0, 250.0]],
+    "unit": "nmol/L"
+  },
+  {
+    "name": "vitaminA",
+    "title": "Vitamin A",
+    "normal_range": [
+      [1.2, 1.99],
+      [3.0, 3.5]
+    ],
+    "abnormal_range": [
+      [0.0, 1.2],
+      [3.5, 99]
+    ],
+    "optimal_range": [[1.99, 3.0]],
+    "unit": "umol/L"
+  },
+  {
+    "name": "sodium",
+    "title": "Sodium",
+    "normal_range": [
+      [135.0, 137.0],
+      [142.0, 146.0]
+    ],
+    "abnormal_range": [
+      [0.0, 135.0],
+      [146.0, 999]
+    ],
+    "optimal_range": [[137.0, 142.0]],
+    "unit": "mmol/L"
+  },
+  {
+    "name": "potassium",
+    "title": "Potassium",
+    "normal_range": [
+      [3.5, 4.0],
+      [5.0, 5.4]
+    ],
+    "abnormal_range": [
+      [0.0, 3.5],
+      [5.4, 99]
+    ],
+    "optimal_range": [[4.0, 5.0]],
+    "unit": "mmol/L"
+  },
+  {
+    "name": "phosphorus",
+    "title": "Phosphorus",
+    "normal_range": [
+      [0.8, 0.84],
+      [1.2, 1.5]
+    ],
+    "abnormal_range": [
+      [0.0, 0.8],
+      [1.5, 99]
+    ],
+    "optimal_range": [[0.84, 1.2]],
+    "unit": "mmol/L"
+  },
+  {
+    "name": "alkalinePhosphate",
+    "title": "ALP",
+    "normal_range": [
+      [35.0, 45.0],
+      [100.0, 122.0]
+    ],
+    "abnormal_range": [
+      [0.0, 35.0],
+      [122.0, 999]
+    ],
+    "optimal_range": [[45.0, 100.0]],
+    "unit": "U/L"
+  },
+  {
+    "name": "alanineTransaminase",
+    "title": "ALT",
+    "normal_range": [[0.0, 46.0]],
+    "abnormal_range": [[46.0, 999]],
+    "optimal_range": [[0.0, 46.0]],
+    "unit": "U/L"
+  },
+  {
+    "name": "aspartateTransaminase",
+    "title": "AST",
+    "normal_range": [
+      [0.0, 10.0],
+      [26.0, 30.0]
+    ],
+    "abnormal_range": [[30.0, 999]],
+    "optimal_range": [[10.0, 26.0]],
+    "unit": "U/L"
+  },
+  {
+    "name": "gammaGlutamylTransferase",
+    "title": "GGT",
+    "normal_range": [
+      [0.0, 10.0],
+      [30.0, 44.0]
+    ],
+    "abnormal_range": [[44.0, 999]],
+    "optimal_range": [[10.0, 30.0]],
+    "unit": "U/L"
+  },
+  {
+    "name": "totalBilirubin",
+    "title": "Total Bilirubin",
+    "normal_range": [
+      [0.0, 5.0],
+      [15.0, 20.0]
+    ],
+    "abnormal_range": [[20.0, 999]],
+    "optimal_range": [[5.0, 15.0]],
+    "unit": "umol/L"
+  },
+  {
+    "name": "albumin",
+    "title": "Albumin",
+    "normal_range": [[35.0, 45.0]],
+    "abnormal_range": [
+      [0.0, 35.0],
+      [52.0, 999]
+    ],
+    "optimal_range": [[45.0, 52.0]],
+    "unit": "g/L"
+  },
+  {
+    "name": "thyroidStimulatingHormone",
+    "title": "TSH",
+    "normal_range": [[1.0, 4.0]],
+    "abnormal_range": [
+      [0.0, 0.32],
+      [4.0, 99]
+    ],
+    "optimal_range": [[0.32, 1.0]],
+    "unit": "mIU/L"
+  },
+  {
+    "name": "freeT4",
+    "title": "Free T4",
+    "normal_range": [[9.0, 10.0]],
+    "abnormal_range": [
+      [0.0, 9.0],
+      [23.0, 999]
+    ],
+    "optimal_range": [[10.0, 23.0]],
+    "unit": "pmol/L"
+  },
+  {
+    "name": "freeT3",
+    "title": "Free T3",
+    "normal_range": [[3.4, 4.8]],
+    "abnormal_range": [
+      [0.0, 3.4],
+      [6.0, 99]
+    ],
+    "optimal_range": [[4.8, 6.0]],
+    "unit": "pmol/L"
+  },
+  {
+    "name": "reverseT3",
+    "title": "Reverse T3",
+    "normal_range": [
+      [8.0, 10.0],
+      [16.0, 25.0]
+    ],
+    "abnormal_range": [
+      [0.0, 8.0],
+      [25.0, 999]
+    ],
+    "optimal_range": [[10.0, 16.0]],
+    "unit": "ng/dL"
+  },
+  {
+    "name": "thyroidPeroxidaseAntibody",
+    "title": "anti-TPO",
+    "normal_range": [[0.0, 35.0]],
+    "abnormal_range": [[35.0, 999]],
+    "optimal_range": [[0.0, 35.0]],
+    "unit": "kIU/mL"
+  },
+  {
+    "name": "thyroglobulinAntibodies",
+    "title": "anti-TG",
+    "normal_range": [[0.0, 41.0]],
+    "abnormal_range": [[41.0, 999]],
+    "optimal_range": [[0.0, 41.0]],
+    "unit": "kIU/mL"
+  },
+  {
+    "name": "follitropin",
+    "title": "FSH",
+    "normal_range": [[3.0, 15.0]],
+    "abnormal_range": [
+      [0.0, 3.0],
+      [15.0, 999]
+    ],
+    "optimal_range": [[3.0, 15.0]],
+    "unit": "IU/L"
+  },
+  {
+    "name": "lutropin",
+    "title": "LH",
+    "normal_range": [[2.0, 12.0]],
+    "abnormal_range": [
+      [0.0, 2.0],
+      [12.0, 30.0]
+    ],
+    "optimal_range": [[2.0, 12.0]],
+    "unit": "IU/L"
+  },
+  {
+    "name": "estradiol",
+    "title": "Estradiol",
+    "normal_range": [[77.0, 921.0]],
+    "abnormal_range": [
+      [0.0, 77.0],
+      [921.0, 9999]
+    ],
+    "optimal_range": [[77.0, 921.0]],
+    "unit": "pmol/mL"
+  },
+  {
+    "name": "progesterone",
+    "title": "Progesterone",
+    "normal_range": [[1.7, 99]],
+    "abnormal_range": [[0.0, 1.7]],
+    "optimal_range": [[1.7, 99]],
+    "unit": "nmol/L"
+  },
+  {
+    "name": "testosterone",
+    "title": "Total Testosterone",
+    "normal_range": [[0.0, 2.0]],
+    "abnormal_range": [
+      [2.0, 3.0],
+      [10.0, 999]
+    ],
+    "optimal_range": [[3.0, 10.0]],
+    "unit": "nmol/L"
+  },
+  {
+    "name": "testosteroneFree",
+    "title": "Free Testosterone",
+    "normal_range": [[0.0, 26.0]],
+    "abnormal_range": [[36.0, 999]],
+    "optimal_range": [[26.0, 36.0]],
+    "unit": "pmol/L"
+  },
+  {
+    "name": "dhea",
+    "title": "DHEA",
+    "normal_range": [[2.68, 5.0]],
+    "abnormal_range": [
+      [0.0, 2.68],
+      [10.0, 999]
+    ],
+    "optimal_range": [[5.0, 10.0]],
+    "unit": "umol/L"
+  },
+  {
+    "name": "prolactin",
+    "title": "Prolactin",
+    "normal_range": [[5.0, 27.0]],
+    "abnormal_range": [
+      [0.0, 5.0],
+      [27.0, 999]
+    ],
+    "optimal_range": [[5.0, 27.0]],
+    "unit": "ug/L"
+  },
+  {
+    "name": "sexHormoneBindGlobulin",
+    "title": "Sex Hormone (SHBG)",
+    "normal_range": [[20.0, 80.0]],
+    "abnormal_range": [
+      [0.0, 20.0],
+      [180.0, 9999]
+    ],
+    "optimal_range": [[80.0, 180.0]],
+    "unit": "nmol/L"
+  },
+  {
+    "name": "cortisol",
+    "title": "AM Cortisol",
+    "normal_range": [
+      [130.0, 250.0],
+      [350.0, 540.0]
+    ],
+    "abnormal_range": [
+      [0.0, 130.0],
+      [540.0, 9999]
+    ],
+    "optimal_range": [[250.0, 350.0]],
+    "unit": "nmol/L"
+  },
+  {
+    "name": "hemoglobin",
+    "title": "Hemoglobin",
+    "normal_range": [
+      [120.0, 130.0],
+      [155.0, 160.0]
+    ],
+    "abnormal_range": [
+      [0.0, 120.0],
+      [160.0, 9999]
+    ],
+    "optimal_range": [[130.0, 155.0]],
+    "unit": "g/L"
+  },
+  {
+    "name": "hematocrit",
+    "title": "Hematocrit (HCT)",
+    "normal_range": [
+      [0.35, 0.37],
+      [0.44, 0.45]
+    ],
+    "abnormal_range": [
+      [0.0, 0.35],
+      [0.45, 99]
+    ],
+    "optimal_range": [[0.37, 0.44]],
+    "unit": "L/L"
+  },
+  {
+    "name": "wbc",
+    "title": "WBC",
+    "normal_range": [[10.0, 11.0]],
+    "abnormal_range": [
+      [0.0, 4.0],
+      [11.0, 999]
+    ],
+    "optimal_range": [[4.0, 10.0]],
+    "unit": "xE9/L"
+  },
+  {
+    "name": "neutrophils",
+    "title": "Neutrophils",
+    "normal_range": [[2.0, 7.5]],
+    "abnormal_range": [
+      [0.0, 2.0],
+      [7.5, 99]
+    ],
+    "optimal_range": [[2.0, 7.5]],
+    "unit": "xE9/L"
+  },
+  {
+    "name": "lymphocytes",
+    "title": "Lymphocytes",
+    "normal_range": [[1.0, 3.5]],
+    "abnormal_range": [
+      [0.0, 1.0],
+      [3.5, 99]
+    ],
+    "optimal_range": [[1.0, 3.5]],
+    "unit": "xE9/L"
+  },
+  {
+    "name": "monocytes",
+    "title": "Monocytes",
+    "normal_range": [[0.2, 1.0]],
+    "abnormal_range": [
+      [0.0, 0.2],
+      [1.0, 99]
+    ],
+    "optimal_range": [[0.2, 1.0]],
+    "unit": "xE9/L"
+  },
+  {
+    "name": "Eosinophils",
+    "title": "Eosinophils",
+    "normal_range": [[0.0, 0.5]],
+    "abnormal_range": [[0.5, 99]],
+    "optimal_range": [[0.0, 0.5]],
+    "unit": "xE9/L"
+  },
+  {
+    "name": "rbc",
+    "title": "RBC",
+    "normal_range": [
+      [4.0, 4.3],
+      [4.8, 5.1]
+    ],
+    "abnormal_range": [
+      [0.0, 4.0],
+      [5.1, 99]
+    ],
+    "optimal_range": [[4.3, 4.8]],
+    "unit": "xE12/L"
+  },
+  {
+    "name": "mcv",
+    "title": "MCV",
+    "normal_range": [
+      [80.0, 82.0],
+      [90.0, 100.0]
+    ],
+    "abnormal_range": [
+      [0.0, 80.0],
+      [100.0, 999]
+    ],
+    "optimal_range": [[82.0, 90.0]],
+    "unit": "fL"
+  },
+  {
+    "name": "mch",
+    "title": "MCH",
+    "normal_range": [[27.5, 33.0]],
+    "abnormal_range": [
+      [0.0, 27.5],
+      [33.0, 999]
+    ],
+    "optimal_range": [[27.5, 33.0]],
+    "unit": "pg"
+  },
+  {
+    "name": "mchc",
+    "title": "MCHC",
+    "normal_range": [[305.0, 360.0]],
+    "abnormal_range": [
+      [0.0, 305.0],
+      [360.0, 9999]
+    ],
+    "optimal_range": [[305.0, 360.0]],
+    "unit": "g/L"
+  },
+  {
+    "name": "rdw",
+    "title": "RDW",
+    "normal_range": [[11.5, 14.5]],
+    "abnormal_range": [
+      [0.0, 11.5],
+      [14.5, 999]
+    ],
+    "optimal_range": [[11.5, 14.5]],
+    "unit": "%"
+  },
+  {
+    "name": "plateletCount",
+    "title": "Platelet Count",
+    "normal_range": [
+      [150.0, 190.0],
+      [350.0, 400.0]
+    ],
+    "abnormal_range": [
+      [0.0, 150.0],
+      [400.0, 9999]
+    ],
+    "optimal_range": [[190.0, 350.0]],
+    "unit": "xE9/L"
+  }
+]

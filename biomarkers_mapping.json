@@ -1,0 +1,307 @@
+[
+  {
+    "name": "cholesterol",
+    "range": "3.5-5.2 mmol/L",
+    "optimalRange": "3.5-4.5 mmol/L"
+  },
+  {
+    "name": "ldlCholesterol",
+    "range": "<3.4 mmol/L",
+    "optimalRange": "<2.6 mmol/L"
+  },
+  {
+    "name": "hdlCholesterol",
+    "range": ">1.2 mmol/L",
+    "optimalRange": ">1.5 mmol/L"
+  },
+  {
+    "name": "nonHdlCholesterol",
+    "range": "<3.8 mmol/L",
+    "optimalRange": "<3.4 mmol/L"
+  },
+  {
+    "name": "triglyceride",
+    "range": "<1.7 mmol/L",
+    "optimalRange": "<1.1 mmol/L"
+  },
+  {
+    "name": "cholesterolToHdlRatio",
+    "range": "<4.5",
+    "optimalRange": "<3.5"
+  },
+  {
+    "name": "hbA1c",
+    "range": "4.0-6.0%",
+    "optimalRange": "4.5-5.3%"
+  },
+  {
+    "name": "creatinine",
+    "range": "45-84 μmol/L",
+    "optimalRange": "45-84 μmol/L"
+  },
+  {
+    "name": "eGFR",
+    "range": ">90 mL/min/1.73m²",
+    "optimalRange": ">90 mL/min/1.73m²"
+  },
+  {
+    "name": "sodium",
+    "range": "135-145 mmol/L",
+    "optimalRange": "138-142 mmol/L"
+  },
+  {
+    "name": "potassium",
+    "range": "3.5-5.0 mmol/L",
+    "optimalRange": "4.0-4.5 mmol/L"
+  },
+  {
+    "name": "phosphorus",
+    "range": "0.8-1.5 mmol/L",
+    "optimalRange": "1.0-1.5 mmol/L"
+  },
+  {
+    "name": "totalBilirubin",
+    "range": "3-17 μmol/L",
+    "optimalRange": "3-17 μmol/L"
+  },
+  {
+    "name": "calcium",
+    "range": "2.15-2.55 mmol/L",
+    "optimalRange": "2.2-2.5 mmol/L"
+  },
+  {
+    "name": "albumin",
+    "range": "35-50 g/L",
+    "optimalRange": "40-50 g/L"
+  },
+  {
+    "name": "sedimentationRate",
+    "range": "2-30 mm/hr",
+    "optimalRange": "< 10 mm/hr"
+  },
+  {
+    "name": "vitaminD",
+    "range": "50-250 nmol/L",
+    "optimalRange": "100-175 nmol/L"
+  },
+  {
+    "name": "vitaminB12",
+    "range": "138-652 pmol/L",
+    "optimalRange": "400-700 pmol/L"
+  },
+  {
+    "name": "ferritin",
+    "range": "13-150 μg/L",
+    "optimalRange": "70-150 μg/L"
+  },
+  {
+    "name": "progesterone",
+    "range": "Follicular: <1.7 nmol/L\nLuteal: 4.0-50 nmol/L\nPost-Menopausal: <0.7 nmol/L",
+    "optimalRange": "Follicular: <1.7 nmol/L\nLuteal: 1:10 ratio to Estradiol levels\nPost-Menopausal: 25 to 35 nmol/L"
+  },
+  {
+    "name": "prolactin",
+    "range": "5-27 μg/L",
+    "optimalRange": "5-27 μg/L"
+  },
+  {
+    "name": "sexHormoneBindGlobulin",
+    "range": "18-144 nmol/L",
+    "optimalRange": "60-120 nmol/L"
+  },
+  {
+    "name": "reverseT3",
+    "range": "10-24 ng/dL",
+    "optimalRange": "10-20 ng/dL"
+  },
+  {
+    "name": "freeT3",
+    "range": "3.5-6.5 pmol/L",
+    "optimalRange": "5.0-6.5 pmol/L"
+  },
+  {
+    "name": "freeT4",
+    "range": "10-20 pmol/L",
+    "optimalRange": "15-18 pmol/L"
+  },
+  {
+    "name": "testosteroneFree",
+    "range": "< 36 pmol/L",
+    "optimalRange": "26-36 pmol/L"
+  },
+  {
+    "name": "follitropin",
+    "range": "Follicular: 2.0-12.0 IU/L\nMid-cycle: 8.0-90.00 IU/L\nLuteal: 1-12.9 IU/L\nPost-Menopausal: 5.0-65.4 IU/L",
+    "optimalRange": "Follicular: 2.0-12.0 IU/L\nMid-cycle: 8.0-90.00 IU/L\nLuteal: 1-12.9 IU/L\nPost-Menopausal: 25-65.4 IU/L"
+  },
+  {
+    "name": "lutropin",
+    "range": "Follicular: 2.0-12.0 IU/L\nMid-cycle: 8.0-90.00 IU/L\nLuteal: 1-12.9 IU/L\nPost-Menopausal: 5.0-65.4 IU/L",
+    "optimalRange": "Follicular: 2.0-12.0 IU/L\nMid-cycle: 8.0-90.00 IU/L\nLuteal: 1-12.9 IU/L\nPost-Menopausal: 25-65.4 IU/L"
+  },
+  {
+    "name": "testosterone",
+    "range": "<2 nmol/L",
+    "optimalRange": "3-10 nmol/L"
+  },
+  {
+    "name": "magnesium",
+    "range": "0.70-1.00 mmol/L",
+    "optimalRange": "0.80-0.95 mmol/L"
+  },
+  {
+    "name": "zinc",
+    "range": "10.7-18.4 μmol/L",
+    "optimalRange": "12.0-18.0 μmol/L"
+  },
+  {
+    "name": "vitaminA",
+    "range": "1.05-2.80 μmol/L",
+    "optimalRange": "1.75-2.80 μmol/L"
+  },
+  {
+    "name": "cortisolAm",
+    "range": "138-690 nmol/L",
+    "optimalRange": "400-600 nmol/L"
+  },
+  {
+    "name": "dhea",
+    "range": "2.68-9.8 μmol/L",
+    "optimalRange": "5-10 μmol/L"
+  },
+  {
+    "name": "estradiol",
+    "range": "Follicular: 77-921 pmol/L\nMid-cycle: 139-2382 pmol/L\nLuteal: 77-1145 pmol/L\nPost-Menopausal: <103 pmol/L",
+    "optimalRange": "Follicular: 77-921 pmol/L\nMid-cycle: 10:1 ratio to Progesterone levels\nLuteal: 10:1 ratio to Progesterone levels\nPost-Menopausal: 250-350 pmol/L"
+  },
+  {
+    "name": "alkalinePhosphate",
+    "range": "35-104 U/L",
+    "optimalRange": "50-90 U/L"
+  },
+  {
+    "name": "alanineTransaminase",
+    "range": "<33 U/L",
+    "optimalRange": "<20 U/L"
+  },
+  {
+    "name": "aspartateTransaminase",
+    "range": "<32 U/L",
+    "optimalRange": "<20 U/L"
+  },
+  {
+    "name": "gammaGlutamylTransferase",
+    "range": "<40 U/L",
+    "optimalRange": "<20 U/L"
+  },
+  {
+    "name": "thyroidStimulatingHormone",
+    "range": "0.4-4.0 mIU/L",
+    "optimalRange": "1.0-2.5 mIU/L"
+  },
+  {
+    "name": "thyroidPeroxidaseAntibody",
+    "range": "<35 IU/mL",
+    "optimalRange": "<20 IU/mL"
+  },
+  {
+    "name": "thyroglobulinAntibodies",
+    "range": "<40 IU/mL",
+    "optimalRange": "<20 IU/mL"
+  },
+  {
+    "name": "seleniumPlasma",
+    "range": "0.89-1.65 μmol/L",
+    "optimalRange": "1.25-1.65 μmol/L"
+  },
+  {
+    "name": "cReactiveProtein",
+    "range": "<4.0 mg/L",
+    "optimalRange": "<1.0 mg/L"
+  },
+  {
+    "name": "hemoglobin",
+    "range": "120-160 g/L",
+    "optimalRange": "130-150 g/L"
+  },
+  {
+    "name": "hematocrit",
+    "range": "0.36-0.46",
+    "optimalRange": "0.38-0.44"
+  },
+  {
+    "name": "rbc",
+    "range": "3.8-5.2 x10^12/L",
+    "optimalRange": "4.0-5.0 x10^12/L"
+  },
+  {
+    "name": "wbc",
+    "range": "4.0-11.0 x10^9/L",
+    "optimalRange": "5.0-8.0 x10^9/L"
+  },
+  {
+    "name": "neutrophils",
+    "range": "2.0-7.5 x10^9/L",
+    "optimalRange": "2.5-5.0 x10^9/L"
+  },
+  {
+    "name": "lymphocytes",
+    "range": "1.0-4.0 x10^9/L",
+    "optimalRange": "1.5-3.5 x10^9/L"
+  },
+  {
+    "name": "monocytes",
+    "range": "0.2-1.0 x10^9/L",
+    "optimalRange": "0.3-0.8 x10^9/L"
+  },
+  {
+    "name": "eosinophils",
+    "range": "0.0-0.5 x10^9/L",
+    "optimalRange": "0.05-0.3 x10^9/L"
+  },
+  {
+    "name": "basophils",
+    "range": "0.0-0.2 x10^9/L",
+    "optimalRange": "0.01-0.1 x10^9/L"
+  },
+  {
+    "name": "mcv",
+    "range": "80-100 fL",
+    "optimalRange": "85-95 fL"
+  },
+  {
+    "name": "mch",
+    "range": "27-32 pg",
+    "optimalRange": "28-32 pg"
+  },
+  {
+    "name": "mchc",
+    "range": "320-360 g/L",
+    "optimalRange": "330-350 g/L"
+  },
+  {
+    "name": "rdw",
+    "range": "11.5-14.5%",
+    "optimalRange": "11.5-13.5%"
+  },
+  {
+    "name": "plateletCount",
+    "range": "150-400 x10^9/L",
+    "optimalRange": "200-350 x10^9/L"
+  },
+  {
+    "name": "glucose",
+    "range": "3.9-5.5 mmol/L",
+    "optimalRange": "4.0-5.0 mmol/L"
+  },
+  {
+    "name": "insulin",
+    "range": "18-173 pmol/L",
+    "optimalRange": "18-60 pmol/L"
+  },
+    {
+      "name": "totalPsa",
+      "range": "< 2.5 ug/L",
+      "optimalRange": "<1 ug/L"
+    }
+]

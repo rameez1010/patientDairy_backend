@@ -1,0 +1,11 @@
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+extend-select = ["I"]  # enables import sorting
+
+[tool.ruff.isort]
+# Your internal dirs
+known-first-party = ["ai", "auth", "config", "email_sending", "female_report", "male_report", "models", "queries"]  
+known-third-party = ["fastapi", "pydantic", "sqlalchemy", "requests"]  # Third-party
+section-order = ["future", "standard-library", "third-party", "first-party", "local-folder"]
+force-sort-within-sections = true

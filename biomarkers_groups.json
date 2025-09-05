@@ -1,0 +1,66 @@
+{
+  "lipids": [
+    "cholesterol",
+    "ldlCholesterol",
+    "hdlCholesterol",
+    "nonHdlCholesterol",
+    "triglyceride",
+    "cholesterolToHdlRatio"
+  ],
+  "glucose": ["hbA1c", "insulin", "glucose"],
+  "renal": ["creatinine", "eGFR"],
+  "mineral": ["calcium", "ferritin", "magnesium", "zinc", "seleniumPlasma"],
+  "inflammation_Markers": [
+    "sedimentationRate",
+    "cReactiveProtein",
+    "fibrinogen",
+    "uricAcid"
+  ],
+  "vitamin": ["vitaminA", "vitaminB12", "vitaminD"],
+  "electrolytes": ["sodium", "potassium", "phosphorus"],
+  "liver_Enzymes": [
+    "alanineTransaminase",
+    "alkalinePhosphate",
+    "aspartateTransaminase",
+    "albumin",
+    "gammaGlutamylTransferase",
+    "totalBilirubin"
+  ],
+  "thyroid_Functions": [
+    "thyroidStimulatingHormone",
+    "thyroidPeroxidaseAntibody",
+    "thyroglobulinAntibodies",
+    "reverseT3",
+    "freeT3",
+    "freeT4"
+  ],
+  "hormone": [
+    "follitropin",
+    "lutropin",
+    "progesterone",
+    "testosterone",
+    "estradiol",
+    "testosteroneFree",
+    "dhea",
+    "prolactin",
+    "sexHormoneBindGlobulin",
+    "cortisolAm",
+    "totalPsa"
+  ],
+  "cbc": [
+    "hemoglobin",
+    "hematocrit",
+    "rbc",
+    "wbc",
+    "neutrophils",
+    "lymphocytes",
+    "lonocytes",
+    "eosinophils",
+    "basophils",
+    "mcv",
+    "mch",
+    "mchc",
+    "rdw",
+    "plateletCount"
+  ]
+}

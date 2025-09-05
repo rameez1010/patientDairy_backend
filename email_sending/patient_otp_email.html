@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your BioKrystal Login Code</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 20px;
+      }
+      .container {
+        max-width: 600px;
+        margin: auto;
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+      }
+      .header {
+        background: linear-gradient(to right, #5b2d91, #3b82f6);
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+      }
+      .content {
+        padding: 20px;
+      }
+      .footer {
+        background-color: #f1f1f1;
+        padding: 10px 20px;
+        text-align: center;
+        font-size: 12px;
+      }
+      .otp-code {
+        background: linear-gradient(to right, #5b2d91, #3b82f6);
+        color: white;
+        font-size: 32px;
+        font-weight: bold;
+        text-align: center;
+        padding: 20px;
+        margin: 20px 0;
+        border-radius: 8px;
+        letter-spacing: 8px;
+      }
+      a {
+        color: #007bff;
+        text-decoration: none;
+      }
+      p {
+        color: rgb(46, 46, 46);
+      }
+      .note {
+        font-size: 12px;
+        color: #666;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Your Login Verification Code</h1>
+      </div>
+      <div class="content">
+        <p>Hi {{name}},</p>
+        <p>
+          You're trying to sign in to your BioKrystal patient account. To complete your login, 
+          please use the verification code below:
+        </p>
+        <div class="otp-code">{{otp_code}}</div>
+        <p class="note">
+          This code will expire in 10 minutes. If you didn't request this code, 
+          please ignore this email or contact us if you have concerns.
+        </p>
+        <p>
+          If you have any questions, feel free to reach out to us at
+          <a href="mailto:info@biokrystal.com">info@biokrystal.com</a>.
+        </p>
+        <p>Best Regards,<br />BioKrystal Team</p>
+      </div>
+      <div class="footer">
+        <p>&copy; 2024 BioKrystal. All rights reserved.</p>
+      </div>
+    </div>
+  </body>
+</html> 

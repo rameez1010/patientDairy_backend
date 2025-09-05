@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to BioKrystal</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 20px;
+      }
+      .container {
+        max-width: 600px;
+        margin: auto;
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+      }
+      .header {
+        background: linear-gradient(to right, #5b2d91, #3b82f6);
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+      }
+      .content {
+        padding: 20px;
+      }
+      .footer {
+        background-color: #f1f1f1;
+        padding: 10px 20px;
+        text-align: center;
+        font-size: 12px;
+      }
+      a {
+        color: #007bff;
+        text-decoration: none;
+      }
+      p {
+        color: rgb(46, 46, 46);
+      }
+      .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #3b82f6;
+        color: white;
+        border-radius: 4px;
+        text-decoration: none;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Welcome to BioKrystal</h1>
+      </div>
+      <div class="content">
+        <p>Hi {{name}},</p>
+        <p>
+          Your doctor has created your BioKrystal account! We are excited to
+          have you on board. At BioKrystal, we strive to connect practitioners
+          and patients, empowering them with advanced AI tools to extract
+          insights from lab results and optimize patient health.
+        </p>
+        <p>
+          To get started, please set your password by clicking the link below:
+        </p>
+        <p>
+          <a href="{{url}}" class="btn">Set Your Password</a>
+        </p>
+        <p>
+          After opening the link, set a new password and confirm it. Once done, you can log in to your account.
+        </p>
+        <p>
+          If you have any questions, feel free to reach out to us at
+          <a href="mailto:info@biokrystal.com">info@biokrystal.com</a>.
+        </p>
+        <p>Best Regards,<br />BioKrystal Team</p>
+      </div>
+      <div class="footer">
+        <p>&copy; 2024 BioKrystal. All rights reserved.</p>
+      </div>
+    </div>
+  </body>
+</html>

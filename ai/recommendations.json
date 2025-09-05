@@ -1,0 +1,123 @@
+{
+  "recommendation_family": "bloodwork",
+  "biomarker_group": "hormone",
+  "diet": [
+    {
+      "action": "Eat a hormone-supportive diet",
+      "details": [
+        "Focus on fruits, vegetables, whole grains, lean proteins",
+        "Include vitamins (C, B5, B6, D) and minerals (magnesium, zinc)",
+        "Minimize processed foods and excess sugar"
+      ]
+    }
+  ],
+  "activity": [
+    {
+      "action": "Exercise",
+      "details": [
+        "Regular moderate exercise with resistance training",
+        "Avoid excessive exercise that elevates cortisol"
+      ]
+    }
+  ],
+  "lifestyle": [
+    {
+      "action": "Manage stress",
+      "details": [
+        "Practice meditation, yoga, and deep breathing to will lower cortisol and support hormone balance"
+      ]
+    },
+    {
+      "action": "Prioritize sleep",
+      "details": [
+        "7-9 hours nightly for adrenal health",
+        "Essential for optimal hormone production"
+      ]
+    },
+    {
+      "action": "Reduce toxin exposure",
+      "details": [
+        "Limit endocrine-disrupting chemicals",
+        "Choose natural personal care products"
+      ]
+    },
+    {
+      "action": "Maintain work-life balance",
+      "details": ["Limit screen time and schedule regular relaxation"]
+    }
+  ],
+  "supplements": [
+    {
+      "action": "Monitor FSH and LH",
+      "details": [
+        "If FSH and LH levels are within normal range, continue monitoring annually",
+        "If FSH is between 20–50 IU/L and LH is between 15–50 IU/L, continue to monitor regularly"
+      ]
+    },
+    {
+      "action": "Estrogen (Estradiol – E2) in Menopausal Women",
+      "details": [
+        "If a menopausal woman is taking estradiol (E2) and her E2 level is <250 pmol/L, adjust her dose:",
+        "Oral estradiol: Increase by 0.25 mg daily",
+        "Topical (cream) estradiol: Increase by 0.5 mg daily",
+        "Side effects may include breast tenderness, nausea, headache, bloating, mood swings, spotting",
+        "Other side effects like weight changes, fluid retention, or discharge follow below:",
+        "Reduce the dose by 0.5 mg, or stop estradiol supplementation",
+        "If bleeding or spotting occurs, order a pelvic ultrasound to assess endometrial thickness (should be <5 mm)",
+        "If no pathology is found, restart estradiol at a lower dose (e.g., 0.25 mg daily, or even 0.125 mg if needed)",
+        "Continue to monitor every 3 months until optimal levels are achieved without side effects"
+      ]
+    },
+    {
+      "action": "Progesterone (P4) <25 nmol/L",
+      "details": [
+        "Increase Micronized Progesterone Immediate Release (IR) by 50 mg daily, and reassess in 3 months",
+        "If patient report side effects like morning drowsiness or breast fullness",
+        "Reduce dose by 50%, or",
+        "Take P4 --2 to 3 hours before bedtime for 1 week — morning drowsiness should improve, or",
+        "Switch from oral IR to sublingual (SL) form at the same dose"
+      ]
+    },
+    {
+      "action": "Progesterone (P4) >25 nmol/L",
+      "details": ["Continue with the same dose, reassess in 3 months"]
+    },
+    {
+      "action": "DHEA-S <5 µmol/L",
+      "details": [
+        "If patient is taking DHEA IR/SR, increase oral dose by 5 mg",
+        "If report side effects like acne, nipple sensitivity, hair loss, or headaches Follow below:",
+        "Stop DHEA supplementation until symptoms resolve",
+        "Restart at 50% of previous dose, every other day for 3–4 weeks",
+        "If well tolerated, increase to daily, and reassess in 3 months"
+      ]
+    },
+    {
+      "action": "Total Testosterone <2 nmol/L",
+      "details": [
+        "If patient is using testosterone cream, increase dose by 1 mg, reassess in 3 months",
+        "Focus is on optimizing TT levels and monitoring regularly",
+        "If report side effects like nipple sensitivity, leg swelling, acne, or excess hair growth follow below:",
+        "Stop testosterone supplementation until symptoms resolve",
+        "Restart at 50% lower dose, every other day for 3–4 weeks",
+        "If no side effects, increase to daily use, reassess in 3 months"
+      ]
+    },
+    {
+      "action": "AM cortisol <190 nmol/L",
+      "details": [
+        "Consider increasing Ashwagandha 500 mg from once daily to twice daily",
+        "Alternatively, add Adreset by Metagenics, taking 2 capsules twice daily",
+        "Continue monitoring cortisol levels every 3 months"
+      ]
+    },
+    {
+      "action": "AM cortisol >400 nmol/L",
+      "details": [
+        "Consider increasing Ashwagandha 500 mg to three times daily",
+        "Add Rhodiola 300 mg, taken twice daily",
+        "Continue monitoring cortisol levels every 3 months"
+      ]
+    }
+  ]
+}

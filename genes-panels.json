@@ -1,0 +1,693 @@
+{
+  "panels": [
+    {
+      "panel": "Vitamin D",
+      "genes": [
+        {
+          "name": "CYP2R1",
+          "genotypes": [
+            {
+              "genotype": "AG",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "GG",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "AA",
+              "risk_level": "normal"
+            }
+          ],
+          "rs_id": "rs10741657"
+        },
+        {
+          "name": "VDR",
+          "genotypes": [
+            {
+              "genotype": "CT",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "TT",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "CC",
+              "risk_level": "normal"
+            }
+          ],
+          "rs_id": "rs2228570"
+        }
+      ]
+    },
+    {
+      "panel": "Serum Glucose",
+      "genes": [
+        {
+          "name": "TCF7L2",
+          "genotypes": [
+            {
+              "genotype": "CT",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "TT",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "CC",
+              "risk_level": "normal"
+            }
+          ],
+          "rs_id": "rs7903146"
+        },
+        {
+          "name": "TCF7L2",
+          "genotypes": [
+            {
+              "genotype": "GT",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "TT",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "GG",
+              "risk_level": "normal"
+            }
+          ],
+          "rs_id": "rs12255372"
+        },
+        {
+          "name": "MTNR1B",
+          "genotypes": [
+            {
+              "genotype": "CG",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "GG",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "CC",
+              "risk_level": "normal"
+            }
+          ],
+          "rs_id": "rs10830963"
+        }
+      ]
+    },
+    {
+      "panel": "Sex Hormones",
+      "genes": [
+        {
+          "name": "COMT",
+          "genotypes": [
+            {
+              "genotype": "TT",
+              "risk_level": "normal"
+            },
+            {
+              "genotype": "CT",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "CC",
+              "risk_level": "normal"
+            }
+          ],
+          "rs_id": "rs4680"
+        },
+        {
+          "name": "CYP1A1",
+          "genotypes": [
+            {
+              "genotype": "CC",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "CT",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "TT",
+              "risk_level": "normal"
+            }
+          ],
+          "rs_id": "rs1048943"
+        },
+        {
+          "name": "CYP1B1",
+          "genotypes": [
+            {
+              "genotype": "CC",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "GG",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "CG",
+              "risk_level": "normal"
+            }
+          ],
+          "rs_id": "rs1056836"
+        },
+        {
+          "name": "UGT2B15",
+          "genotypes": [
+            {
+              "genotype": "TT",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "GG",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "TG",
+              "risk_level": "normal"
+            }
+          ],
+          "rs_id": "rs1902023"
+        },
+        {
+          "name": "GSTP1",
+          "genotypes": [
+            {
+              "genotype": "AG",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "GG",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "AA",
+              "risk_level": "normal"
+            }
+          ],
+          "rs_id": "rs1695"
+        },
+        {
+          "name": "GSTT1",
+          "genotypes": [
+            {
+              "genotype": "0",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "1",
+              "risk_level": "normal"
+            }
+          ],
+          "rs_id": ""
+        },
+        {
+          "name": "GSTM1",
+          "genotypes": [
+            {
+              "genotype": "0",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "1",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "2",
+              "risk_level": "normal"
+            }
+          ],
+          "rs_id": ""
+        },
+        {
+          "name": "CYP17A1",
+          "genotypes": [
+            {
+              "genotype": "CC",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "CT",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "TT",
+              "risk_level": "normal"
+            }
+          ],
+          "rs_id": "rs743572"
+        },
+        {
+          "name": "SRD5A2",
+          "genotypes": [
+            {
+              "genotype": "GG",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "CG",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "CC",
+              "risk_level": "normal"
+            }
+          ],
+          "rs_id": "rs523349"
+        }
+      ]
+    },
+    {
+      "panel": "Thyroid Function",
+      "genes": [
+        {
+          "name": "DIO2",
+          "genotypes": [
+            {
+              "genotype": "CC",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "CT",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "TT",
+              "risk_level": "normal"
+            }
+          ],
+          "rs_id": "rs225014"
+        }
+      ]
+    },
+    {
+      "panel": "Lipids",
+      "genes": [
+        {
+          "name": "PSRC1",
+          "genotypes": [
+            {
+              "genotype": "AA",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "AG",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "GG",
+              "risk_level": "normal"
+            }
+          ],
+          "rs_id": "rs599839"
+        },
+        {
+          "name": "SLCO1B1",
+          "genotypes": [
+            {
+              "genotype": "CC",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "CT",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "TT",
+              "risk_level": "normal"
+            }
+          ],
+          "rs_id": "rs4149056"
+        },
+        {
+          "name": "APOE",
+          "genotypes": [
+            {
+              "genotype": "CC",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "CT",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "TT",
+              "risk_level": "normal"
+            }
+          ],
+          "rs_id": "rs7412"
+        },
+        {
+          "name": "APOE",
+          "genotypes": [
+            {
+              "genotype": "TT",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "CT",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "TT",
+              "risk_level": "normal"
+            }
+          ],
+          "rs_id": "rs429358"
+        },
+        {
+          "name": "MLXIPL",
+          "genotypes": [
+            {
+              "genotype": "CC",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "CG",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "GG",
+              "risk_level": "normal"
+            }
+          ],
+          "rs_id": "rs3812316"
+        },
+        {
+          "name": "9P21",
+          "genotypes": [
+            {
+              "genotype": "CC",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "CT",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "TT",
+              "risk_level": "normal"
+            }
+          ],
+          "rs_id": "rs10757278"
+        },
+        {
+          "name": "PCSK9",
+          "genotypes": [
+            {
+              "genotype": "GG",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "GT",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "TT",
+              "risk_level": "normal"
+            }
+          ],
+          "rs_id": "rs11591147"
+        },
+        {
+          "name": "9P21",
+          "genotypes": [
+            {
+              "genotype": "GG",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "AG",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "AA",
+              "risk_level": "normal"
+            }
+          ],
+          "rs_id": "rs10757274"
+        },
+        {
+          "name": "9P21",
+          "genotypes": [
+            {
+              "genotype": "GG",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "AG",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "AA",
+              "risk_level": "normal"
+            }
+          ],
+          "rs_id": "rs4977574"
+        }
+      ]
+    },
+    {
+      "panel": "CBC",
+      "genes": [
+        {
+          "name": "TMPRSS2",
+          "genotypes": [
+            {
+              "genotype": "GG",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "AG",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "AA",
+              "risk_level": "normal"
+            }
+          ],
+          "rs_id": "rs2070788"
+        },
+        {
+          "name": "CDKN2A",
+          "genotypes": [
+            {
+              "genotype": "CC",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "CT",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "TT",
+              "risk_level": "normal"
+            }
+          ],
+          "rs_id": "rs10757278"
+        }
+      ]
+    },
+    {
+      "panel": "Vitamins B",
+      "genes": [
+        {
+          "name": "MTHFR",
+          "genotypes": [
+            {
+              "genotype": "AA",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "AG",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "GG",
+              "risk_level": "normal"
+            }
+          ],
+          "rs_id": "rs1801133"
+        },
+        {
+          "name": "MTHFR",
+          "genotypes": [
+            {
+              "genotype": "CC",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "CA",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "AA",
+              "risk_level": "normal"
+            }
+          ],
+          "rs_id": "rs1801131"
+        }
+      ]
+    },
+    {
+      "panel": "Minerals - Detox",
+      "genes": [
+        {
+          "name": "SOD2",
+          "genotypes": [
+            {
+              "genotype": "AA",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "AG",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "GG",
+              "risk_level": "normal"
+            }
+          ],
+          "rs_id": "rs4880"
+        },
+        {
+          "name": "GPx",
+          "genotypes": [
+            {
+              "genotype": "TT",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "CT",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "CC",
+              "risk_level": "normal"
+            }
+          ],
+          "rs_id": "rs1050450"
+        },
+        {
+          "name": "FOXO3",
+          "genotypes": [
+            {
+              "genotype": "TT",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "GT",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "GG",
+              "risk_level": "normal"
+            }
+          ],
+          "rs_id": "rs2802292"
+        },
+        {
+          "name": "SIRT1",
+          "genotypes": [
+            {
+              "genotype": "GG",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "AG",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "AA",
+              "risk_level": "normal"
+            }
+          ],
+          "rs_id": "rs3758391"
+        }
+      ]
+    },
+    {
+      "panel": "Hormones",
+      "genes": [
+        {
+          "name": "HTR2A",
+          "genotypes": [
+            {
+              "genotype": "GG",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "AG",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "AA",
+              "risk_level": "increased"
+            }
+          ],
+          "rs_id": "rs6311"
+        },
+        {
+          "name": "UGT2B17",
+          "genotypes": [
+            {
+              "genotype": "0",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "1",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "2",
+              "risk_level": "normal"
+            }
+          ],
+          "rs_id": ""
+        },
+        {
+          "name": "CYP3A4",
+          "genotypes": [
+            {
+              "genotype": "GG",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "AA",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "AG",
+              "risk_level": "normal"
+            }
+          ],
+          "rs_id": "rs2740574"
+        },
+        {
+          "name": "MAOA",
+          "genotypes": [
+            {
+              "genotype": "TT",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "GT",
+              "risk_level": "increased"
+            },
+            {
+              "genotype": "GG",
+              "risk_level": "normal"
+            }
+          ],
+          "rs_id": "rs6323"
+        }
+      ]
+    }
+  ]
+}
